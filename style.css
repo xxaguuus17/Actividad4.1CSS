@@ -1,0 +1,42 @@
+body{font-family: Georgia, serif;
+    line-height: 1.75em;}
+body{font-size: 100%;}
+h1{font-family: 'Marko One', serif, Georgia, 'Times New Roman', Times;
+    font-size: 2,5rem;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: purple;
+}
+h2{font-size: 1rem;}
+p, dd, dt{font-size: 14px;}
+dt{font-weight: bold; font-style: oblique;} 
+.newitem{color: maroon}
+#info{/**color:teal**/
+ }
+#info p{
+    font-style: oblique;
+    color: grey;
+    }
+.price{
+    color:grey;
+    font-family: Georgia, serif;
+}
+.label:first-of-type{
+    font-weight:bold;
+    font-variant: small-caps;
+}
+.warning{
+    font-size: x-small;
+    color: red;
+}
+h1, h2, #info{text-align: center;}
+#appetizers h2, #entrees h2{
+    font-variant: small-caps;
+    color: purple;
+    line-height: 0.5em;   
+}
+h2 + p{
+    font-style: oblique;
+    text-align: center;
+}
+dt{color: sienna}
